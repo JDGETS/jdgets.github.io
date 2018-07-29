@@ -1,0 +1,31 @@
+- role: "Chef"
+  name: "Gabrielle Johnson"
+  image: "/img/team/Chef.jpg"
+
+- role: "Compétitions"
+  name: "Alex Boivin"
+  image: "/img/team/Competitions.jpg"
+
+- role: "Social"
+  name: "Simon M. Auclair"
+  image: "/img/team/Social.jpg"
+
+- role: "Finance"
+  name: "Lilian Rossat"
+  image: "/img/team/Finance.jpg"
+
+- role: "Commandite"
+  name: "Célia-Nour M. Venturelli"
+  image: "/img/team/Commandite.jpg"
+
+- role: "Swag"
+  name: "Maxim Laurin"
+  image: "/img/team/Swag.jpg"
+
+- role: "Machine"
+  name: "Francis Vachon"
+  image: "/img/team/Machine1.jpg"
+
+- role: "Machine"
+  name: "Benoit Côté-Jodoin"
+  image: "/img/team/Machine2.jpg"
