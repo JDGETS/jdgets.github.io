@@ -1,5 +1,5 @@
 - role: "Chef"
-  name: "Mohammed Redouane Laref"
+  name: "Redouane Laref"
   image: "/img/team/Chef.jpg"
 
 - role: "Chef"
@@ -29,3 +29,11 @@
 - role: "Machine"
   name: "Hans-Christian Mayer"
   image: "/img/team/Machine2.jpg"
+
+- role: "Parraine"
+  name: "Anne-Sophie Gagné"
+  image: "/img/team/Parraine.jpg"
+
+- role: "Parrain"
+  name: "Kuvish Bussawah"
+  image: "/img/team/Parraine.jpg"
