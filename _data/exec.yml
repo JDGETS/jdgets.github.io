@@ -1,25 +1,25 @@
 - role: "Chef"
-  name: "Gabrielle Johnson"
+  name: "Mohammed Redouane Laref"
   image: "/img/team/Chef.jpg"
 
-- role: "Compétitions"
+- role: "Chef"
   name: "Alex Boivin"
-  image: "/img/team/Competitions.jpg"
+  image: "/img/team/Chef2.jpg"
 
 - role: "Social"
-  name: "Simon M. Auclair"
+  name: "Kathia Bernard"
   image: "/img/team/Social.jpg"
 
-- role: "Finance"
-  name: "Lilian Rossat"
-  image: "/img/team/Finance.jpg"
+- role: "Compétition"
+  name: "Vincent Lemieux"
+  image: "/img/team/Compétition.jpg"
 
 - role: "Commandite"
-  name: "Célia-Nour M. Venturelli"
+  name: "Amélie Lessard"
   image: "/img/team/Commandite.jpg"
 
 - role: "Swag"
-  name: "Maxim Laurin"
+  name: "Maxime Pelletier"
   image: "/img/team/Swag.jpg"
 
 - role: "Machine"
@@ -27,5 +27,5 @@
   image: "/img/team/Machine1.jpg"
 
 - role: "Machine"
-  name: "Benoit Côté-Jodoin"
+  name: "Hans-Christian Mayer"
   image: "/img/team/Machine2.jpg"
