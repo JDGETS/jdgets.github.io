@@ -1,10 +1,10 @@
-- role: "Chef"
+- role: "Cheffe"
   name: "Kathia Bernard"
   image: "/img/team/Chef1.jpg"
 
 - role: "VP interne"
   name: "Redouane Laref"
-  image: "/img/team/interne.jpg"
+  image: "/img/team/Interne.jpg"
 
 - role: "Social"
   name: "Matilde Savard"
@@ -23,7 +23,7 @@
   image: "/img/team/Swag.jpg"
 
 - role: "Machine"
-  name: "Andreea Avra,"
+  name: "Andreea Avram"
   image: "/img/team/Machine1.jpg"
 
 - role: "Machine"
