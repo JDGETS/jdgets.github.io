@@ -1,17 +1,17 @@
 - role: "Chef"
-  name: "Redouane Laref"
+  name: "Kathia Bernard"
   image: "/img/team/Chef1.jpg"
 
-- role: "Chef"
-  name: "Alex Boivin"
-  image: "/img/team/Chef2.jpg"
+- role: "VP interne"
+  name: "Redouane Laref"
+  image: "/img/team/interne.jpg"
 
 - role: "Social"
-  name: "Kathia Bernard"
+  name: "Matilde Savard"
   image: "/img/team/Social.jpg"
 
 - role: "Compétition"
-  name: "Vincent Lemieux"
+  name: "Samuel Arsenault"
   image: "/img/team/Compétition.jpg"
 
 - role: "Commandite"
@@ -19,11 +19,11 @@
   image: "/img/team/Commandite.jpg"
 
 - role: "Swag"
-  name: "Maxime Pelletier"
+  name: "Christophe Duchesne"
   image: "/img/team/Swag.jpg"
 
 - role: "Machine"
-  name: "Francis Vachon"
+  name: "Andreea Avra,"
   image: "/img/team/Machine1.jpg"
 
 - role: "Machine"
@@ -31,9 +31,9 @@
   image: "/img/team/Machine2.jpg"
 
 - role: "Parraine"
-  name: "Anne-Sophie Gagné"
+  name: "Megan Padvaiskas"
   image: "/img/team/Parraine.jpg"
 
 - role: "Parrain"
-  name: "Kuvish Bussawah"
+  name: "Tristan Bouchard"
   image: "/img/team/Parrain.jpg"
