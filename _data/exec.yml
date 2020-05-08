@@ -10,7 +10,7 @@
   name: "Matilde Savard"
   image: "/img/team/Social.jpg"
 
-- role: "Compétition"
+- role: "Compétitions"
   name: "Samuel Arsenault"
   image: "/img/team/Compétition.jpg"
   
@@ -19,7 +19,7 @@
   name: "Amélie Lessard"
   image: "/img/team/Commandite.jpg"
   
-- role: "Finance"
+- role: "Finances"
   name: "Léonore Jean-François"
   image: "/img/team/Finance.jpg"
 
@@ -27,11 +27,11 @@
   name: "Christophe Duchesne"
   image: "/img/team/Swag.jpg"
 
-- role: "Machine"
+- role: "Machines"
   name: "Andreea Avram"
   image: "/img/team/Machine1.jpg"
 
-- role: "Machine"
+- role: "Machines"
   name: "Hans-Christian Mayer"
   image: "/img/team/Machine2.jpg"
 
