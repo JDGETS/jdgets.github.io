@@ -13,10 +13,15 @@
 - role: "Compétition"
   name: "Samuel Arsenault"
   image: "/img/team/Compétition.jpg"
-
-- role: "Commandite"
-  name: "Amélie Lessard"
-  image: "/img/team/Commandite.jpg"
+  
+  
+- role: "Compétition"
+  name: "Samuel Arsenault"
+  image: "/img/team/Compétition.jpg"
+  
+- role: "Finance"
+  name: "Léonore Jean-François"
+  image: "/img/team/Finance.jpg"
 
 - role: "Swag"
   name: "Christophe Duchesne"
