@@ -350,12 +350,15 @@
                       <li><a href="#porfolio_menu" data-filter=".Sports" >Sports</a></li>
                       <li><a href="#porfolio_menu" data-filter=".Impro">Improvisation</a></li>
                       <li><a href="#porfolio_menu" data-filter=".Debat">Débat</a></li>
+                      <li><a href="#porfolio_menu" data-filter=".Debat">Acads</a></li>
+                      <li><a href="#porfolio_menu" data-filter=".Debat">GEH</a></li>
+                      <li><a href="#porfolio_menu" data-filter=".Debat">Entreprneuriat</a></li>
                     </ul>
                   </div>
                   <div class="portfolio_content">
                     <div class="row"  id="portfolio">
 
-                      {% assign categories = "Debat Machine Sports Impro" | split: " " %}
+                      {% assign categories = "Debat Machine Sports Impro Acads GEH Entreprneuriat" | split: " " %}
                       {% for cat in categories %}
                         {% for image in site.static_files %}
                           {% assign filter = "portfolio/" | append: cat %}
