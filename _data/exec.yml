@@ -1,10 +1,10 @@
 - role: "Cheffe"
-  name: "Kathia Bernard"
+  name: "Mathilde Savard"
   image: "/img/team/Chef1.jpg"
 
-- role: "VP interne"
-  name: "Redouane Laref"
-  image: "/img/team/Interne.jpg"
+- role: "Chef"
+  name: "Simon Rouleau-Dionne"
+  image: "/img/team/Chef.jpg"
 
 - role: "Social"
   name: "Mathilde Savard"
