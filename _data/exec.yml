@@ -1,44 +1,44 @@
 - role: "Cheffe"
   name: "Mathilde Savard"
-  image: "/img/team/Chef1.jpg"
+  image: "/img/team/Chef1.JPG"
 
 - role: "Chef"
-  name: "Simon Rouleau-Dionne"
-  image: "/img/team/Interne.jpg"
+  name: "Samuel Rouleau-Dionne"
+  image: "/img/team/Interne.JPG"
 
 - role: "Social"
-  name: "Mathilde Savard"
-  image: "/img/team/Social.jpg"
+  name: "Pierre-André Girard"
+  image: "/img/team/Social.JPG"
 
 - role: "Compétitions"
-  name: "Samuel Arsenault"
-  image: "/img/team/Compétition.jpg"
+  name: "Vincent Doyle"
+  image: "/img/team/Compétition.JPG"
   
   
 - role: "Commandites"
-  name: "Simon Rouleau Dionne"
-  image: "/img/team/Commandite.jpg"
+  name: "Makenzie Brissette"
+  image: "/img/team/Commandite.JPG"
   
 - role: "Finances"
-  name: "Léonore Jean-François"
-  image: "/img/team/Finance.jpg"
+  name: "Daryna Seth"
+  image: "/img/team/Finance.JPG"
 
 - role: "Swag"
-  name: "Christophe Duchesne"
-  image: "/img/team/Swag.jpg"
+  name: "Jonathan Brochu"
+  image: "/img/team/Swag.JPG"
+
+- role: "Machines"
+  name: "Hans Christian Meyer"
+  image: "/img/team/Machine1.JPG"
 
 - role: "Machines"
   name: "Andreea Avram"
-  image: "/img/team/Machine1.jpg"
-
-- role: "Machines"
-  name: "Hans-Christian Meyer"
-  image: "/img/team/Machine2.jpg"
+  image: "/img/team/Machine2.JPG"
 
 - role: "Marraine"
-  name: "Megan Padvaiskas"
-  image: "/img/team/Parraine.jpg"
+  name: "Alec Adub"
+  image: "/img/team/Parraine.JPG"
 
 - role: "Parrain"
-  name: "Tristan Bouchard"
-  image: "/img/team/Parrain.jpg"
+  name: "Benjamin St-Pierre"
+  image: "/img/team/Parrain.JPG"
