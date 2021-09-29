@@ -369,21 +369,21 @@
                 <div class="portfolio_content_area" >
                   <div class="portfolio_menu" id="filters">
                     <ul>
-                      <li class="active_prot_menu"><a href="#porfolio_menu" data-filter="none"></a></li>
-		      <li><a href="#porfolio_menu" data-filter="*">Tout</a></li>
-                      <li><a href="#porfolio_menu" data-filter=".Machine">Machine</a></li>
-                      <li><a href="#porfolio_menu" data-filter=".Sports" >Sports</a></li>
-                      <li><a href="#porfolio_menu" data-filter=".Impro">Improvisation</a></li>
-                      <li><a href="#porfolio_menu" data-filter=".Debat">Débat</a></li>
+                      <li class="active_prot_menu"><a href="#porfolio_menu" data-filter=".Default">Aperçu</a></li>
                       <li><a href="#porfolio_menu" data-filter=".Acads">Acads</a></li>
-                      <li><a href="#porfolio_menu" data-filter=".GEH">GEH</a></li>
-                      <li><a href="#porfolio_menu" data-filter=".Entreprneuriat">Entrepreneuriat</a></li>
+			<li><a href="#porfolio_menu" data-filter=".Debat">Débat</a></li>
+			<li><a href="#porfolio_menu" data-filter=".Entreprneuriat">Entrepreneuriat</a></li>
+			<li><a href="#porfolio_menu" data-filter=".GEH">GEH</a></li>    
+			<li><a href="#porfolio_menu" data-filter=".Impro">Improvisation</a></li>
+			<li><a href="#porfolio_menu" data-filter=".Machine">Machine</a></li>
+                      <li><a href="#porfolio_menu" data-filter=".Sports" >Sports</a></li>
+		      <li><a href="#porfolio_menu" data-filter="*">Tout</a></li>
                     </ul>
                   </div>
                   <div class="portfolio_content">
                     <div class="row"  id="portfolio">
 
-                      {% assign categories = "Debat Machine Sports Impro Acads GEH Entreprneuriat" | split: " " %}
+                      {% assign categories = "Debat Machine Sports Impro Acads GEH Entreprneuriat Default" | split: " " %}
                       {% for cat in categories %}
                         {% for image in site.static_files %}
                           {% assign filter = "portfolio/" | append: cat %}
