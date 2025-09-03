@@ -1,13 +1,13 @@
 - role: "Cheffe"
-  name: "Mathilde Savard"
+  name: "Lea Bouchard"
   image: "/img/team/Chef1.JPG"
 
 - role: "Chef"
-  name: "Samuel Rouleau-Dionne"
+  name: "Alec Bourque"
   image: "/img/team/Interne.JPG"
 
 - role: "Social"
-  name: "Pierre-André Girard"
+  name: "Benjamin Larose"
   image: "/img/team/Social.JPG"
 
 - role: "Compétitions"
@@ -16,15 +16,15 @@
   
   
 - role: "Commandites"
-  name: "Makenzie Brissette"
+  name: "Evelyne Fortin"
   image: "/img/team/Commandite.JPG"
   
 - role: "Finances"
-  name: "Daryna Seth"
+  name: "Anthony Maskaleut"
   image: "/img/team/Finance.JPG"
 
 - role: "Gear"
-  name: "Jonathan Brochu"
+  name: "Ailish Troughton"
   image: "/img/team/Swag.JPG"
 
 - role: "Machines"
@@ -36,9 +36,9 @@
   image: "/img/team/Machine2.JPG"
 
 - role: "Marraine"
-  name: "Alec Adub"
+  name: "Eve Marie Routhier"
   image: "/img/team/Parrain.JPG"
 
 - role: "Parrain"
-  name: "Benjamin St-Pierre"
+  name: "Antoine Malenfant"
   image: "/img/team/parrain2.jpg"
