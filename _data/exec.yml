@@ -11,7 +11,7 @@
   image: "/img/team/Social.JPG"
 
 - role: "Compétitions"
-  name: "Vincent Doyle"
+  name: "Thomas Journault"
   image: "/img/team/Compétition.JPG"
   
   
@@ -23,15 +23,15 @@
   name: "Daryna Seth"
   image: "/img/team/Finance.JPG"
 
-- role: "Swag"
+- role: "Gear"
   name: "Jonathan Brochu"
   image: "/img/team/Swag.JPG"
 
 - role: "Machines"
-  name: "Hans Christian Meyer"
+  name: "Guillaume Parisien"
   image: "/img/team/Machine1.JPG"
 
-- role: "Machines"
+- role: "Guillaume Malo"
   name: "Andreea Avram"
   image: "/img/team/Machine2.JPG"
 
