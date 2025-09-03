@@ -1,9 +1,9 @@
-- role: "Cheffe"
-  name: "Lea Bouchard"
-  image: "/img/team/Chef1.JPG"
+- role: "Co-Chef"
+  name: "Lea Bouchard et Alec Bourque"
+  image: "/img/team/Chef2.JPG"
 
-- role: "Chef"
-  name: "Alec Bourque"
+- role: "Interne"
+  name: "Tommy Parrent"
   image: "/img/team/Interne.JPG"
 
 - role: "Social"
@@ -31,13 +31,13 @@
   name: "Guillaume Parisien"
   image: "/img/team/Machine1.JPG"
 
-- role: "Guillaume Malo"
-  name: "Andreea Avram"
+- role: "Machine"
+  name: "Guillaume Malo"
   image: "/img/team/Machine2.JPG"
 
 - role: "Marraine"
   name: "Eve Marie Routhier"
-  image: "/img/team/Parrain.JPG"
+  image: "/img/team/Marraine.JPG"
 
 - role: "Parrain"
   name: "Antoine Malenfant"
