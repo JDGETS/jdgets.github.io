@@ -1,10 +1,10 @@
 - role: "Chef"
   name: "Lea Bouchard"
-  image: "/img/team/Chef1.jpg"
+  image: "/img/team/ChefToup.jpg"
 
 - role: "Chef"
   name: "Alec Bourque"
-  image: "/img/team/Chef2.jpg"
+  image: "/img/team/ChefAlec.jpg"
 
 - role: "Entreprenariat"
   name: "Étienne Tardif"
