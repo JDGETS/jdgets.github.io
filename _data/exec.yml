@@ -12,29 +12,29 @@
 
 - role: "Interne"
   name: "Tommy Parrent"
-  image: "/img/team/Interne.JPG"
+  image: "/img/team/interne.jpg"
 
 
 - role: "Social"
   name: "Benjamin Larose"
-  image: "/img/team/Social.JPG"
+  image: "/img/team/Sauce.jpg"
 
 - role: "Compétitions"
   name: "Thomas Journault"
-  image: "/img/team/Compe.jpg"
+  image: "/img/team/Compétition.jpg"
   
   
-- role: "Commandites"
+- role: "Partenaires"
   name: "Evelyne Fortin"
-  image: "/img/team/Commandite.JPG"
+  image: "/img/team/partenaire.jpg"
   
 - role: "Finances"
   name: "Anthony Maskaleut"
-  image: "/img/team/Finance.JPG"
+  image: "/img/team/Finance.jpg"
 
 - role: "Gear"
   name: "Ailish Troughton"
-  image: "/img/team/Swag.JPG"
+  image: "/img/team/gear.jpg"
 
 - role: "Machines"
   name: "Guillaume Parisien"
