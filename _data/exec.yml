@@ -4,7 +4,7 @@
 
 - role: "Chef"
   name: "Alec Bourque"
-  image: "/img/team/ChefAlec.jpg"
+  image: "/img/team/ChefAlec1.jpg"
 
 - role: "Entreprenariat"
   name: "Étienne Tardif"
@@ -50,4 +50,4 @@
 
 - role: "Parrain"
   name: "Antoine Malenfant"
-  image: "/img/team/Parrains.jpg"
+  image: "/img/team/Parrains1.jpg"
