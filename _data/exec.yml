@@ -12,7 +12,7 @@
 
 - role: "Interne"
   name: "Tommy Parrent"
-  image: "/img/team/interne.jpg"
+  image: "/img/team/interne2025.jpg"
 
 
 - role: "Social"
@@ -21,16 +21,16 @@
 
 - role: "Compétitions"
   name: "Thomas Journault"
-  image: "/img/team/Compétition.jpg"
+  image: "/img/team/Compétition2025.jpg"
   
   
 - role: "Partenaires"
   name: "Evelyne Fortin"
-  image: "/img/team/partenaire.jpg"
+  image: "/img/team/partenaire2025.jpg"
   
 - role: "Finances"
   name: "Anthony Maskaleut"
-  image: "/img/team/Finance.jpg"
+  image: "/img/team/Finance2025.jpg"
 
 - role: "Gear"
   name: "Ailish Troughton"
@@ -46,7 +46,7 @@
 
 - role: "Marraine"
   name: "Eve Marie Routhier"
-  image: "/img/team/Marraine.JPG"
+  image: "/img/team/Marraine2025.JPG"
 
 - role: "Parrain"
   name: "Antoine Malenfant"
