@@ -8,12 +8,11 @@
 
 - role: "Entreprenariat"
   name: "Étienne Tardif"
-  image: "/img/team/Entreprenariat.jpg"
+  image: "/img/team/Entreprenariat.png"
 
 - role: "Interne"
   name: "Tommy Parrent"
   image: "/img/team/interne2025.jpg"
-
 
 - role: "Social"
   name: "Benjamin Larose"
@@ -22,12 +21,11 @@
 - role: "Compétitions"
   name: "Thomas Journault"
   image: "/img/team/Compétition2025.jpg"
-  
-  
+
 - role: "Partenaires"
   name: "Evelyne Fortin"
   image: "/img/team/partenaire2025.jpg"
-  
+
 - role: "Finances"
   name: "Anthony Maskaleut"
   image: "/img/team/finance2025.jpg"
