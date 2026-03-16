@@ -14,8 +14,8 @@
   name: "Benjamin Truchon"
   image: "/img/team/Interne.jpg"
 
-- role: "Social"
-  name: "tommy Parent"
+- role: "Logistique"
+  name: "Tommy Parent"
   image: "/img/team/Sauce.jpg"
 
 - role: "Compétitions"
@@ -30,7 +30,7 @@
   name: "Gabriel Normandeau"
   image: "/img/team/finance.jpg"
 
-- role: "Gear"
+- role: "Promotions"
   name: "Léa Trudeau"
   image: "/img/team/gear.jpg"
 
@@ -38,7 +38,7 @@
   name: "Victor Desmeules"
   image: "/img/team/Machine1.jpg"
 
-- role: "Machine"
+- role: "Machines"
   name: "Denis Turk"
   image: "/img/team/Machine2.jpg"
 
