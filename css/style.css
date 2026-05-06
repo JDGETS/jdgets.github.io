@@ -151,6 +151,7 @@ section {
 
 /* Navbar brand (logo) */
 .navbar-brand {
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left center;
 	width: 150px;
@@ -168,16 +169,16 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/ETS_Force_Blanc.png);
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/ETS_Force_Blanc.svg);
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/ETS_Force_Blanc.svg);
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/ETS_Force_Blanc.svg);
 }
 
 /* Navbar links */
