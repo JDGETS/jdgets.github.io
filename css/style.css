@@ -169,7 +169,7 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/ETS_Force_Blanc.png);
+	background-image: url(../img/ETS_Force_Blanc.svg);
 }
 .navbar-shrink .navbar-brand {
 	background-image: url(../img/ETS_Force_Blanc.svg);
