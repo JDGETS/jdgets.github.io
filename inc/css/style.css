@@ -168,16 +168,16 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/ETS_Force_Blanc.svg);
+	background-image: url(../img/ETS_Force.svg);
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/ETS_Force_Blanc.svg);
+	background-image: url(../img/ETS_Force.svg);
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/ETS_Force_Blanc.svg);
+	background-image: url(../img/ETS_Force.svg);
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/ETS_Force_Blanc.svg);
+	background-image: url(../img/ETS_Force.svg);
 }
 
 /* Navbar links */
