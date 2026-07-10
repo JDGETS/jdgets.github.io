@@ -145,24 +145,58 @@ $('.counter').counterUp({
 // Isotop Package
 ////////////////////////////////////////////////////////////////////////////////////////////
 $(window).load(function() {
-$('.portfolio_menu ul li').click(function(){
-	$('.portfolio_menu ul li').removeClass('active_prot_menu');
-	$(this).addClass('active_prot_menu');
-});
+  $('.portfolio_menu ul li').click(function(){
+    $('.portfolio_menu ul li').removeClass('active_prot_menu');
+    $(this).addClass('active_prot_menu');
+  });
 
-var $container = $('#portfolio');
-$container.isotope({
-  itemSelector: '.col-sm-4',
-  layoutMode: 'fitRows',
-  filter: '.all-normal'
-});
-$('#filters').on( 'click', 'a', function() {
-  var filterValue = $(this).attr('data-filter');
-  $container.isotope({ filter: filterValue });
-  return false;
-});
-});
+  var $container = $('#portfolio');
+  var itemsPerClick = 12;
+  var visibleItems = itemsPerClick;
 
+  function updateAllNormalItems() {
+    var $allNormalItems = $('.portfolio-all-item');
+    $allNormalItems.removeClass('visible-item');
+    $allNormalItems.slice(0, visibleItems).addClass('visible-item');
+
+    if (visibleItems >= $allNormalItems.length) {
+      $('#show-more-btn').hide();
+    } else {
+      $('#show-more-btn').show();
+    }
+  }
+
+  updateAllNormalItems();
+
+  $container.isotope({
+    itemSelector: '.col-sm-4',
+    layoutMode: 'fitRows',
+    filter: '.all-normal.visible-item'
+  });
+
+  $('#filters').on('click', 'a', function() {
+    var filterValue = $(this).attr('data-filter');
+
+    if (filterValue === '.all-normal') {
+      visibleItems = itemsPerClick;
+      updateAllNormalItems();
+      $container.isotope({ filter: '.all-normal.visible-item' });
+    } else {
+      $('#show-more-btn').hide();
+      $container.isotope({ filter: filterValue });
+    }
+
+    $container.isotope('layout');
+    return false;
+  });
+
+  $('#show-more-btn').click(function () {
+    visibleItems += itemsPerClick;
+    updateAllNormalItems();
+    $container.isotope({ filter: '.all-normal.visible-item' });
+    $container.isotope('layout');
+  });
+});
 
 
 /////////////////////////
@@ -195,3 +229,4 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+

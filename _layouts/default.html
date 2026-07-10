@@ -107,6 +107,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li><a class="page-scroll" href="#about-section">À propos</a></li>
+                <li><a class="page-scroll" href="#partners-section">Partenaires</a></li>
                 <li><a class="page-scroll" href="#doc-section">Documents</a></li>
                 <li><a class="page-scroll" href="#delegation-section">Exécutif</a></li>
                 <li><a class="page-scroll" href="#portfolio-section">Portfolio</a></li>
@@ -125,8 +126,8 @@
       <!-- Begin text carousel intro section -->
       <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/slider-bg-2026.jpg);">
 
-	<div class="container">
-	  <div class="caption text-center text-white" data-stellar-ratio="0.7">
+    <div class="container">
+      <div class="caption text-center text-white" data-stellar-ratio="0.7" style="display:flex; align-items:center; justify-content:center; flex-direction:column; min-height:60vh; transform: translateY(8%);">
 
 	    <div id="owl-intro-text" class="owl-carousel">
 
@@ -143,113 +144,6 @@
 
       </section>
       <!-- End text carousel intro section -->
-
-      <section id="doc-section" class="page">
-
-        <!-- Begin page header-->
-        <div class="page-header-wrapper">
-          <div class="container">
-            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-              <h2>Documents</h2>
-              <div class="devider"></div>
-              <p class="subtitle">Documents Utiles</p>
-            </div>
-          </div>
-        </div>
-        <!-- End page header-->
-
-	<div class="extra-space-l"></div>
-
-	<!-- Begin prices -->
-	<div class="prices">
-	  <div class="container">
-
-	    <div class="row">
-
-      <!-- 
-<div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s">
-  <div class="panel panel-default">
-    <div class="panel-heading text-center">
-      <img src = "./img/icon/machine.png">
-      <h3>Machine - Présentation</h3>
-    </div>
-    <div class="panel-footer text-center">
-      <span class="btn btn-default" href="">En construction...</span>
-    </div>
-  </div>
-</div>
-
-<div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s">
-  <div class="panel panel-default">
-    <div class="panel-heading text-center">
-      <img src = "./img/icon/machine.png">
-      <h3>Machine - Rapport d'avancement</h3>
-    </div>
-    <div class="panel-footer text-center">
-      <span class="btn btn-default" href="">En construction...</span>
-    </div>
-  </div>
-</div>
--->
-
-
-	      <div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s">
-		<div class="panel panel-default">
-		  <div class="panel-heading text-center">
-		    <img src = "./img/icon/sponserIcon.png">
-		    <h3>Document Partenaire FR</h3>
-		  </div>
-		  <div class="panel-footer text-center">
-                    <a class="btn btn-default" href="/Document/Cahier_Partenariat_JDG_ETS.pdf">Télécharger</a>
-		  </div>
-		</div>
-	      </div>
-
-	      <div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s">
-		<div class="panel panel-default">
-		  <div class="panel-heading text-center">
-		    <img src = "./img/icon/sponserIcon.png">
-		    <h3>Document Partenaire EN</h3>
-		  </div>
-		  <div class="panel-footer text-center">
-                    <a class="btn btn-default" href="/Document/Partnership_Booklet_JDG_ETS.pdf">Télécharger</a>
-		  </div>
-		</div>
-	      </div>
-
-	    </div> <!-- /.row -->
-
-	  </div> <!-- /.container -->
-	</div>
-	<!-- End prices -->
-	<div class="extra-space-l"></div>
-      </section>
-
-      <!-- Begin partners -->
-      <section id="partners-section">
-        <!-- Begin page header-->
-        <div class="page-header-wrapper">
-          <div class="container">
-            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-              <h2>Nos partenaires</h2>
-              <div class="devider"></div>
-              <p class="subtitle"></p>
-            </div>
-          </div>
-        </div>
-        <!-- End page header-->
-
-        <div class="container">
-          <div id="owl-partners" class="owl-carousel">
-            {% for image in site.static_files %}
-            {% if image.path contains 'img/partners' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" width="150"/>
-            {% endif %}
-            {% endfor %}
-          </div>
-        </div>
-      </section>
-      <!-- End partners -->
 
       <!-- Begin about section -->
       <section id="about-section" class="page bg-style1">
@@ -284,7 +178,7 @@
 	      <div class="col-md-4 col-3" align="left">
                 <h4 style="margin-left: 40px">Compétitions sportives</h4>
 
-                <p  style="text-align:justify;"> C’est en s’inspirant de l’adage «un esprit sain dans un corps sain» que les compétitions sportives se sont frayé une place au sein du programme de la compétition. Bien que les participants aux Jeux de Génie soient reconnus pour leurs habilités académiques, les concours sportifs leur permettent aussi de démontrer leur polyvalence. Les compétitions seront non seulement axées sur les habiletés athlétiques individuelles, mais, également, sur l’esprit d’équipe et l’effort d’équipe, deux des valeurs les plus importantes de la compétition.
+                <p  style="text-align:justify;"> C’est en s’inspirant de l’adage «un esprit sain dans un corps sain» que les compétitions sportives se sont frayé une place au sein du programme de la compétition. Bien que les participants aux Jeux de Génie soient reconnus pour leurs habilités académiques, les concours sportifs leur permettent aussi de démontrer leur polyvalence. Les compétitions seront non seulement axées sur les habiletés athlétiques individuelles, mais, également, sur l’esprit d’équipe et l’effort d’équipe, deux des valeurs les plus importantes de la compétition. Selon la discipline attribuée, les participants pourraient être appelés à prendre part à un sport en gymnase, à une épreuve en extérieur, à une activité en piscine ou encore à un esport. Une activité surprise, dévoilée uniquement sur place, viendra également ajouter un élément d’imprévisibilité et de découverte à la programmation sportive.
 	        <br><br></p>
 		      
 	      </div>		    
@@ -313,7 +207,7 @@
 	      <div class="col-md-4 col-3" align="left">
                 <h4 style="margin-left: 40px">Compétition entrepreneuriale</h4>
 
-               	<p  style="text-align:justify;"> La compétition entrepreneuriale permet à l’équipe de développer un nouveau produit afin de répondre à une thématique commune en seulement quatre mois.
+               	<p  style="text-align:justify;"> La compétition entrepreneuriale permet à l’équipe de développer un nouveau produit afin de répondre à une thématique commune en seulement quatre mois. Au cours de ce processus, les participants doivent élaborer un plan d’affaires complet, concevoir une stratégie d’innovation et structurer leur proposition de valeur comme une véritable entreprise en démarrage. La compétition inclut également la préparation d’un pitch de vente, ainsi que la présentation du produit et de l’entreprise devant un jury lors des Jeux de Génie. Cette épreuve, d’envergure comparable à la compétition de la machine en termes d’effort et d’investissement, met l’accent sur la créativité, la viabilité du projet et la capacité de convaincre. Elle permet ainsi de simuler concrètement le parcours d’un entrepreneur, de l’idée initiale jusqu’à la mise en marché d’un concept innovant.
 		<br><br></p>
 		      
 	      </div>
@@ -322,6 +216,114 @@
 		    
       </section>
       <!-- End about section -->
+
+      <!-- Begin partners -->
+      <section id="partners-section">
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+          <div class="container">
+            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+              <h2>Nos partenaires</h2>
+              <div class="devider"></div>
+              <p class="subtitle"></p>
+            </div>
+          </div>
+        </div>
+        <!-- End page header-->
+
+        <div class="container">
+          <div id="owl-partners" class="owl-carousel">
+            {% for image in site.static_files %}
+            {% if image.path contains 'img/partners' %}
+            <img src="{{ site.baseurl }}{{ image.path }}" width="150"/>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      <!-- End partners -->
+
+      <section id="doc-section" class="page">
+
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+          <div class="container">
+            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+              <h2>Documents</h2>
+              <div class="devider"></div>
+              <p class="subtitle">Documents Utiles</p>
+            </div>
+          </div>
+        </div>
+        <!-- End page header-->
+
+	<div class="extra-space-l"></div>
+
+	<!-- Begin prices -->
+	<div class="prices">
+	  <div class="container">
+
+    	<div class="row" style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
+
+      <!-- 
+              <div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s" style="display:flex; align-items:center; justify-content:center;">
+  <div class="panel panel-default">
+    <div class="panel-heading text-center">
+      <img src = "./img/icon/machine.png">
+      <h3>Machine - Présentation</h3>
+    </div>
+    <div class="panel-footer text-center">
+      <span class="btn btn-default" href="">En construction...</span>
+    </div>
+  </div>
+</div>
+
+          <div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s" style="display:flex; align-items:center; justify-content:center;">
+  <div class="panel panel-default">
+    <div class="panel-heading text-center">
+      <img src = "./img/icon/machine.png">
+      <h3>Machine - Rapport d'avancement</h3>
+    </div>
+    <div class="panel-footer text-center">
+      <span class="btn btn-default" href="">En construction...</span>
+    </div>
+  </div>
+</div>
+-->
+
+
+        <div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s" style="display:flex; align-items:center; justify-content:center;">
+		<div class="panel panel-default">
+		  <div class="panel-heading text-center">
+		    <img src = "./img/icon/sponserIcon.png">
+		    <h3>Document Partenaire FR</h3>
+		  </div>
+		  <div class="panel-footer text-center">
+                    <a class="btn btn-default" href="/Document/CAHIER DE PARTENARIAT_2026_2027.pdf">Télécharger</a>
+		  </div>
+		</div>
+	      </div>
+        <!--
+        <div class="price-box col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.3s" style="display:flex; align-items:center; justify-content:center;">
+		
+          <div class="panel panel-default">
+		  <div class="panel-heading text-center">
+		    <img src = "./img/icon/sponserIcon.png">
+		    <h3>Document Partenaire EN</h3>
+		  </div>
+		  <div class="panel-footer text-center">
+                    <a class="btn btn-default" href="/Document/Partnership_Booklet_JDG_ETS.pdf">Télécharger</a>
+		  </div>
+		</div>
+	      </div>
+
+	    </div>--> <!-- /.row -->
+
+	  </div> <!-- /.container -->
+	</div>
+	<!-- End prices -->
+	<div class="extra-space-l"></div>
+      </section>
 
       <!-- Begin testimonials -->
       <section id="delegation-section">
@@ -430,7 +432,7 @@
 
                     {% if image.path contains filter %}
 
-                      <div class="col-xs-12 col-sm-4 {{ cat }} all-normal">
+                      <div class="col-xs-12 col-sm-4 {{ cat }} all-normal portfolio-all-item">
                         <div class="portfolio_single_content">
                           <img class="imgSmall" src="{{ image.path }}" alt="{{ cat }}">
                         </div>
@@ -454,6 +456,14 @@
                 {% endfor %}
 
               </div>
+
+              <!-- BOUTON VOIR PLUS -->
+              <div class="text-center" style="margin-top:30px;">
+                <button id="show-more-btn" class="btn btn-default">
+                    Afficher plus
+                </button>
+            </div>
+
             </div>
 
           </div>
@@ -520,12 +530,11 @@
           <h4 style="margin-left: 40px">2024</h4>
           <p>
             <img src="./img/icon/firstPlace.png"> <b>Majeure</b><br>  
-            <img src="./img/icon/secondPlace.png"> <b>Génie Informatique</b><br>
             <img src="./img/icon/secondPlace.png"> <b>Génie Conseil</b><br>  
             <img src="./img/icon/secondPlace.png"> <b>Entrepreneuriat</b><br>  
             <img src="./img/icon/thirdPlace.png"> <b>Génie Mécanique</b><br>  
             <img src="./img/icon/thirdPlace.png"> <b>Super-Polo</b><br>  
-            <img src="./img/icon/thirdPlace.png"> <b>PurInstinct</b>  
+            <img src="./img/icon/thirdPlace.png"> <b>PurInstinct</b><br>
             <img src="./img/icon/thirdPlace.png"> <b>Esprit Des Jeux</b>  
           </p>
         </div>
@@ -823,6 +832,7 @@
 	     $("#overlay").hide();
 	     $("#overlayContent").hide();
 	 });
+
         </script>
 
         <!--==============================================================================
